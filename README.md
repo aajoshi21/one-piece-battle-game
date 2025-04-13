@@ -13,7 +13,9 @@ the power of "haki" (based on willpower, can increase a characters powers of obs
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **PROGRAM SUMMARY**
-The game works by prompting the user to run away or engage in battles on the high seas in search of treasure. The battles are depicted as a button clicking prompt, which determines if the user is able to defeat the enemy or not. First, users select a character or receive a randomized one. Then, they encounter an enemy ship and are asked if they want to run or fight. If they choose to run, there is a fifty percent chance they will fail and have to fight. If they succeed, they move on to the next encounter.
+The game is rendered in C++ and CMake with sprites and other graphics.
+
+works by prompting the user to run away or engage in battles on the high seas in search of treasure. The battles are depicted as a button clicking prompt, which determines if the user is able to defeat the enemy or not. First, users select a character or receive a randomized one. Then, they encounter an enemy ship and are asked if they want to run or fight. If they choose to run, there is a fifty percent chance they will fail and have to fight. If they succeed, they move on to the next encounter.
 
 Once the battle starts, a battle button is shown, prompting the user to click it. Once it's clicked ten times, the user is told if they won or lost. If they win, they find the treasure and win the game. If they lose, they can quit their voyage (exit the game) or try again.
 
