@@ -1,5 +1,3 @@
-# M4OEP-cmlevitt-cyarberr-aajoshi
-
 *****ONE PIECE BATTLE GAME*****
 *Callie Levitt, Apoorva Joshi, & Caden Yarberry*
 
@@ -37,17 +35,4 @@ Algorithms project. The rest is self authored!
 --
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**GRADE JUSTIFICATION**
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-UPDATES!!!!!
-
-Callie TODOS: :P
-sprites!!!!!
-Wave!!!!
-Header File!!! --done
-              
-Caden Todos: 
-continue adding game functionality
 
