@@ -1,0 +1,35 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/apoorvajoshi/CLionProjects/M4OEP-cmlevitt-cyarberr-aajoshi -B /Users/apoorvajoshi/CLionProjects/M4OEP-cmlevitt-cyarberr-aajoshi/cmake-build-debug
+-- Using Cocoa for window creation
+-- GLM: Version 1.0.1
+-- GLM: Disable -Wc++98-compat warnings
+-- GLM: Build with C++ features auto detection
+CMake Deprecation Warning at cmake-build-debug/_deps/freetype-src/CMakeLists.txt:113 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+CMake Warning at cmake-build-debug/_deps/freetype-src/builds/cmake/FindHarfBuzz.cmake:99 (message):
+  Required version (2.0.0) is higher than found version ()
+Call Stack (most recent call first):
+  cmake-build-debug/_deps/freetype-src/CMakeLists.txt:258 (find_package)
+
+
+-- Could NOT find PNG (missing: PNG_LIBRARY) (found version "1.4.12")
+-- Could NOT find BrotliDec (missing: BROTLIDEC_INCLUDE_DIRS BROTLIDEC_LIBRARIES) 
+CMake Warning (dev) at /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(glad) is deprecated, call
+  FetchContent_MakeAvailable(glad) instead.  Policy CMP0169 can be set to OLD
+  to allow FetchContent_Populate(glad) to be called directly for now, but the
+  ability to call it with declared details will be removed completely in a
+  future version.
+Call Stack (most recent call first):
+  CMakeLists.txt:60 (FetchContent_Populate)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (2.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /Users/apoorvajoshi/CLionProjects/M4OEP-cmlevitt-cyarberr-aajoshi/cmake-build-debug
